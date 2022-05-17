@@ -10,10 +10,10 @@ public class Main {
 
     RecursiveSum answer = new RecursiveSum();
 
-    Scanner scan = new Scanner(System.in);
-
-    System.out.println("Enter a number: ");
-    number = scan.nextInt();
+    try (Scanner scan = new Scanner(System.in)) {
+      System.out.println("Enter a number: ");
+      number = scan.nextInt();
+    }
 
     numSum = answer.sum(number);
 
