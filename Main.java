@@ -4,6 +4,17 @@ import java.io.*;
 public class Main {
   // ================================Chapter1==============================================
 
+  /*
+   * A program to display the message "Hello World!" on standard output screen
+   */
+  // public class HelloWorld {
+  // public static void main(String[] args) {
+  // System.out.println("Hello World!");
+  // System.out.println("");
+  // System.out.println("How are you today?");
+  // }
+  // }
+
   // ================================Chapter2==============================================
 
   /*
@@ -42,43 +53,43 @@ public class Main {
    * Practice using decision structures
    */
   // public class DecisionStructures {
-  //   public static void main(String args[]) {
-      // // initialize variable to hold sum
-      // int sum = 0;
-      // // summation of even numbers
-      // for (int i = 2; i <= 10; i = i + 2) {
-      // sum += i;
-      // }
-      // // print statement outside loop
-      // System.out.print("Summation: " + sum); // returns 30
+  // public static void main(String args[]) {
+  // // initialize variable to hold sum
+  // int sum = 0;
+  // // summation of even numbers
+  // for (int i = 2; i <= 10; i = i + 2) {
+  // sum += i;
+  // }
+  // // print statement outside loop
+  // System.out.print("Summation: " + sum); // returns 30
 
-      // // initialize variable to hold sum
-      // int sum = 0;
-      // // use of decision structures
-      // for (int i = 1; i <= 10; i++) {
-      //   // Find the sum of all even numbers
-      //   if (i % 2 == 0)
-      //     sum += i;
-      // }
-      // // Print statement outside loop
-      // System.out.print("Summation: " + sum);
-      // for (
+  // // initialize variable to hold sum
+  // int sum = 0;
+  // // use of decision structures
+  // for (int i = 1; i <= 10; i++) {
+  // // Find the sum of all even numbers
+  // if (i % 2 == 0)
+  // sum += i;
+  // }
+  // // Print statement outside loop
+  // System.out.print("Summation: " + sum);
+  // for (
 
-      //     int i = 0; i < 6; i++) {
-      //   System.out.println("*");
-      // }
+  // int i = 0; i < 6; i++) {
+  // System.out.println("*");
+  // }
 
-      // // Nested for loop (i.e. matrix of rows x columns).
-      // for (int i = 0; i < 6; i++) {
-      // for (int j = 0; j < 6; j++) {
-      // if (i == j)
-      // System.out.print("*");
-      // else
-      // System.out.print(" ");
-      // }
-      // System.out.println("");
-      // }
-  //   }
+  // // Nested for loop (i.e. matrix of rows x columns).
+  // for (int i = 0; i < 6; i++) {
+  // for (int j = 0; j < 6; j++) {
+  // if (i == j)
+  // System.out.print("*");
+  // else
+  // System.out.print(" ");
+  // }
+  // System.out.println("");
+  // }
+  // }
   // }
 
   /*
