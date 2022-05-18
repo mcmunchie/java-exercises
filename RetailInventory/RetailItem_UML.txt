@@ -1,0 +1,14 @@
+- Class name: RetailItem
+- Fields:
+	-description:String
+	-unitsOnHand:int
+	-itemPrice:double
+- Methods:
+	+RetailItem(product:String,units:int,price:double)
+	+setDescription(product:String):void
+	+setUnits(units:int):void
+	+setPrice(price:double):void
+	+getDescription():String
+	+getUnits():int
+	+getPrice():double
+	
