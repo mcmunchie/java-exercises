@@ -5,11 +5,8 @@ Ask the user to input several positive and negative integers.
 Sum the digits in any positive integer.
 */
 
-import java.io.FileNotFoundException;
 import java.util.*;
-import java.util.Scanner;
-import java.io.File;
-import java.io.FilenameFilter;
+import java.io.*;
 
 public class SumDigits {
     public static void main(String[] args) throws FileNotFoundException {
