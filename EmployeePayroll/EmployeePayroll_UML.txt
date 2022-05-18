@@ -1,0 +1,19 @@
+- Class name: EmployeePayroll
+- Fields:
+	-employeeName:String
+	-employeeID:String
+	-employeePayRate:double
+	-employeeWorkHours:double
+- Methods:
+	+PayRoll(name:String,id:String,rate:double,hours:double)
+	+setName(name:String):void
+	+setID(id:String):void
+	+setRate(rate:double):void
+	+setWorkHours(hours:double):void
+	+getName():String
+	+getID():String	
+	+getRate():String
+	+getHours():String
+	+calcGrossPay():double
+	+calcGrossPay(overPayRate:double):double
+	
